@@ -1,0 +1,24 @@
+{
+    "name": "Notepad",
+    "description": "Simple notepad",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "./service-worker.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_icon": {
+            "16": "./assets/icons/notepad_16px.png",
+            "32": "./assets/icons/notepad_32px.png",
+            "48": "./assets/icons/notepad_48px.png",
+            "128": "./assets/icons/notepad_128px.png"
+        }
+    },
+    "icons": {
+        "16": "./assets/icons/notepad_16px.png",
+        "32": "./assets/icons/notepad_32px.png",
+        "48": "./assets/icons/notepad_48px.png",
+        "128": "./assets/icons/notepad_128px.png"
+    }
+}
