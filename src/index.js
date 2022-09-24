@@ -2,7 +2,7 @@ const wordCount = (text) => text.length === 0 ? 0 : text.split(/\s+/).length
 
 const updateWordCount = (text) => {
     const trimmedText = text?.trim() ?? ''
-    document.getElementById('wordCount').innerHTML = `${trimmedText.length} chracter(s), ${wordCount(trimmedText)} word(s)`
+    document.getElementById('wordCount').innerHTML = `${trimmedText.length} character(s), ${wordCount(trimmedText)} word(s)`
 }
 
 const syncNotes = async () => {
@@ -19,4 +19,10 @@ window.onload = async () => {
     document.getElementById('note').addEventListener('input', (e) => {
         localStorage.setItem('note', e.target.value)
     })
+}
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker && navigator.serviceWorker.register("./service-worker.js");
+    });
 }
