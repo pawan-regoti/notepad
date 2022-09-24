@@ -64,7 +64,7 @@ textarea:hover,textarea {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 12px;
   gap: 14px;
 }
 
