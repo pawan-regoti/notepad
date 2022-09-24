@@ -7,26 +7,16 @@
     "scope": "./",
     "background_color": "#0d1117",
     "theme_color": "#0d1117",
-    "icons": [
+    "icons":[
         {
-            "src":"./assets/icons/notepad_128px.png",
-            "sizes":"128x128",
+            "src":"./assets/icons/android-chrome-192x192.png",
+            "sizes":"192x192",
             "type":"image/png",
             "purpose": "maskable"
         },
         {
-            "src":"./assets/icons/notepad_48px.png",
-            "sizes":"48x48",
-            "type":"image/png"
-        },
-        {
-            "src":"./assets/icons/notepad_32px.png",
-            "sizes":"32x32",
-            "type":"image/png"
-        },
-        {
-            "src":"./assets/icons/notepad_16px.png",
-            "sizes":"16x16",
+            "src":"./assets/icons/android-chrome-512x512.png",
+            "sizes":"512x512",
             "type":"image/png"
         }
     ]
